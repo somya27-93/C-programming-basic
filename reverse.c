@@ -4,6 +4,7 @@ int main(){
     int n;
     printf("input no ");
     scanf("%d",&n);
+    int orginal_num=n;
     int rev=0;
     while(n>0){
         int d=n%10;
@@ -12,7 +13,7 @@ int main(){
         n=n/10;
      }
      printf("%d ",rev);
-   //   if(rev==n)
+   //   if(rev==orginal_num)
    //   {
    //      printf("pallindrome");
    //   }
